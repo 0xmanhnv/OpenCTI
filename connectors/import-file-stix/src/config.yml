@@ -1,0 +1,11 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: 'a0e6f71a-d7df-496b-abd7-ca42f13f6c69'
+  type: 'INTERNAL_IMPORT_FILE'
+  name: 'ImportFileStix2'
+  scope: 'application/json'
+  confidence_level: 3
+  log_level: 'info'

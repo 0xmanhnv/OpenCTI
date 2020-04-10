@@ -1,0 +1,11 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: '8b1313e4-bed6-44e2-9162-6ad1aef17aaa'
+  type: 'INTERNAL_EXPORT_FILE'
+  name: 'ExportFileStix'
+  scope: 'application/json'
+  confidence_level: 3
+  log_level: 'info'
