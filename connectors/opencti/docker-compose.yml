@@ -16,3 +16,4 @@ services:
       - CONFIG_GEOGRAPHY_FILE_URL=https://raw.githubusercontent.com/OpenCTI-Platform/datasets/master/data/geography.json
       - CONFIG_INTERVAL=7 # Days
     restart: always
+    network_mode: "host"
