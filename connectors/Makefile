@@ -33,3 +33,21 @@ connectors-down:
 	docker-compose -f mitre/docker-compose.yml down
 	docker-compose -f opencti/docker-compose.yml down
 	docker-compose -f virustotal/docker-compose.yml down
+
+connectors-stop:
+#	docker-compose -f alienvault/docker-compose.yml stop
+	docker-compose -f amitt/docker-compose.yml stop
+#	docker-compose -f crowdstrike/docker-compose.yml stop
+	docker-compose -f cryptolaemus/docker-compose.yml stop
+	docker-compose -f cve/docker-compose.yml stop
+	docker-compose -f cyber-threat-coalition/docker-compose.yml stop
+	docker-compose -f export-file-csv/docker-compose.yml stop
+	docker-compose -f export-file-stix/docker-compose.yml stop
+	docker-compose -f import-file-pdf-observables/docker-compose.yml stop
+	docker-compose -f import-file-stix/docker-compose.yml stop
+	docker-compose -f ipinfo/docker-compose.yml stop
+	docker-compose -f malpedia/docker-compose.yml stop
+#	docker-compose -f misp/docker-compose.yml stop
+	docker-compose -f mitre/docker-compose.yml stop
+	docker-compose -f opencti/docker-compose.yml stop
+	docker-compose -f virustotal/docker-compose.yml stop
