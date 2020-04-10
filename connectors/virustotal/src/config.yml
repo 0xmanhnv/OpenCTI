@@ -1,0 +1,15 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: '82f6ef51-24cd-498a-ad47-f6039d603c79'
+  type: 'INTERNAL_ENRICHMENT'
+  name: 'VirusTotal'
+  scope: 'file-md5,file-sha1,file-sha256'
+  confidence_level: 3
+  log_level: 'info'
+
+virustotal:
+  token: '907c37f0ab21398a4b98651e094c65a2ad183188892bd098bbd74f92b27864d9'
+  max_tlp: 'TLP:AMBER'
