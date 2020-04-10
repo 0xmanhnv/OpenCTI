@@ -1,0 +1,14 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: '6c8990f0-3be5-4b45-84d8-51885dcf7033'
+  type: 'INTERNAL_IMPORT_FILE'
+  name: 'ImportFilePdfObservables'
+  scope: 'application/pdf'
+  confidence_level: 3
+  log_level: 'info'
+
+pdf_observables:
+  create_indicator: False
