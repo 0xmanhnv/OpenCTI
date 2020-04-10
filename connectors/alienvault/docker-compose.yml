@@ -21,3 +21,4 @@ services:
       - ALIENVAULT_GUESS_MALWARE=false # Use tags to guess malware.
       - ALIENVAULT_INTERVAL_SEC=1800
     restart: always
+    network_mode: "host"

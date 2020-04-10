@@ -16,3 +16,4 @@ services:
       - MITRE_PRE_ATTACK_FILE_URL=https://raw.githubusercontent.com/mitre/cti/master/pre-attack/pre-attack.json
       - MITRE_INTERVAL=3 # Days
     restart: always
+    network_mode: "host"

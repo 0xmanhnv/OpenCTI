@@ -27,3 +27,4 @@ services:
       - CROWDSTRIKE_INDICATOR_EXCLUDE_TYPES=hash_ion,hash_md5,hash_sha1
       - CROWDSTRIKE_INTERVAL_SEC=1800
     restart: always
+    network_mode: "host"

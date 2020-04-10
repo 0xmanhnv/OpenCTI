@@ -17,3 +17,4 @@ services:
       - CVE_HISTORY_DATA_FEED=https://nvd.nist.gov/feeds/json/cve/1.1/
       - CVE_INTERVAL=7 # Days
     restart: always
+    network_mode: "host"

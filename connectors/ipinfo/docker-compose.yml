@@ -14,3 +14,4 @@ services:
       - IPINFO_TOKEN=1f78624ff7a9fe
       - IPINFO_MAX_TLP=TLP:AMBER
     restart: always
+    network_mode: "host"

@@ -14,3 +14,4 @@ services:
       - VIRUSTOTAL_TOKEN=907c37f0ab21398a4b98651e094c65a2ad183188892bd098bbd74f92b27864d9
       - VIRUSTOTAL_MAX_TLP=TLP:AMBER
     restart: always
+    network_mode: "host"
