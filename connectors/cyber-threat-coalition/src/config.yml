@@ -1,0 +1,16 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: '7956d04b-a0c6-4d1c-93da-4e41493733f6'
+  type: 'EXTERNAL_IMPORT'
+  name: 'CyberThreatCoalition'
+  scope: 'indicator,report,identity'
+  confidence_level: 3
+  log_level: 'info'
+  update_existing_data: false
+
+cyber-threat-coalition:
+  base_url: 'https://blacklist.cyberthreatcoalition.org/vetted'
+  interval_sec: 21600 # Seconds (6 hours)

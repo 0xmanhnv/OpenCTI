@@ -1,0 +1,15 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: 'a51a46a2-a14c-48f5-8d80-636e5f88ebfa'
+  type: 'INTERNAL_ENRICHMENT'
+  name: 'IpInfo'
+  scope: 'ipv4-addr'
+  confidence_level: 3
+  log_level: 'info'
+
+ipinfo:
+  token: '1f78624ff7a9fe'
+  max_tlp: 'TLP:AMBER'

@@ -1,0 +1,35 @@
+connectors-up:
+#	docker-compose -f alienvault/docker-compose.yml up -d
+	docker-compose -f amitt/docker-compose.yml up -d
+#	docker-compose -f crowdstrike/docker-compose.yml up -d
+	docker-compose -f cryptolaemus/docker-compose.yml up -d
+	docker-compose -f cve/docker-compose.yml up -d
+	docker-compose -f cyber-threat-coalition/docker-compose.yml up -d
+	docker-compose -f export-file-csv/docker-compose.yml up -d
+	docker-compose -f export-file-stix/docker-compose.yml up -d
+	docker-compose -f import-file-pdf-observables/docker-compose.yml up -d
+	docker-compose -f import-file-stix/docker-compose.yml up -d
+	docker-compose -f ipinfo/docker-compose.yml up -d
+	docker-compose -f malpedia/docker-compose.yml up -d
+#	docker-compose -f misp/docker-compose.yml down
+	docker-compose -f mitre/docker-compose.yml up -d
+	docker-compose -f opencti/docker-compose.yml up -d
+	docker-compose -f virustotal/docker-compose.yml up -d
+
+connectors-down:
+#	docker-compose -f alienvault/docker-compose.yml down
+	docker-compose -f amitt/docker-compose.yml down
+#	docker-compose -f crowdstrike/docker-compose.yml down
+	docker-compose -f cryptolaemus/docker-compose.yml down
+	docker-compose -f cve/docker-compose.yml down
+	docker-compose -f cyber-threat-coalition/docker-compose.yml down
+	docker-compose -f export-file-csv/docker-compose.yml down
+	docker-compose -f export-file-stix/docker-compose.yml down
+	docker-compose -f import-file-pdf-observables/docker-compose.yml down
+	docker-compose -f import-file-stix/docker-compose.yml down
+	docker-compose -f ipinfo/docker-compose.yml down
+	docker-compose -f malpedia/docker-compose.yml down
+#	docker-compose -f misp/docker-compose.yml down
+	docker-compose -f mitre/docker-compose.yml down
+	docker-compose -f opencti/docker-compose.yml down
+	docker-compose -f virustotal/docker-compose.yml down

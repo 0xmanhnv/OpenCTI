@@ -3,8 +3,8 @@ services:
   connector-alienvault:
     image: opencti/connector-alienvault:3.1.0
     environment:
-      - OPENCTI_URL=http://localhost
-      - OPENCTI_TOKEN=ChangeMe
+      - OPENCTI_URL=http://localhost:4000
+      - OPENCTI_TOKEN=815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb
       - CONNECTOR_ID=ChangeMe
       - CONNECTOR_TYPE=EXTERNAL_IMPORT
       - CONNECTOR_NAME=AlienVault
