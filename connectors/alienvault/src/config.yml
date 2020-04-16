@@ -13,7 +13,7 @@ connector:
 
 alienvault:
   base_url: 'https://otx.alienvault.com'
-  api_key: 'ChangeMe'
+  api_key: '046efd9268661e0ac97bd6f0b4cb238ec3dbc869cf26ccafdf17ed3927fbf5c4'
   tlp: 'White'
   pulse_start_timestamp: '2020-01-23T00:00:00'  # ISO 8601
   report_status: 'New'                          # New, In progress, Analyzed and Closed
