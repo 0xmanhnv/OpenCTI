@@ -14,27 +14,27 @@
     }
   },
   "grakn": {
-    "hostname": "localhost",
+    "hostname": "127.0.0.1",
     "port": 48555,
     "timeout": 30000
   },
   "redis": {
-    "hostname": "localhost",
+    "hostname": "127.0.0.1",
     "port": 6379
   },
   "elasticsearch": {
-    "url": "http://localhost:9200",
+    "url": "http://127.0.0.1:9200",
     "noQueryCache": false
   },
   "minio": {
-    "endpoint": "localhost",
+    "endpoint": "127.0.0.1",
     "port": 9000,
     "use_ssl": false,
     "access_key": "minio@darkowl.cti",
     "secret_key": "d4rk0wladmin"
   },
   "rabbitmq": {
-    "hostname": "localhost",
+    "hostname": "127.0.0.1",
     "port": 5672,
     "port_management": 15672,
     "management_ssl": false,
