@@ -14,21 +14,21 @@
     }
   },
   "grakn": {
-    "hostname": "localhost",
+    "hostname": "127.0.0.1",
     "port": 48555,
     "timeout": 30000
   },
   "redis": {
-    "hostname": "localhost",
+    "hostname": "127.0.0.1",
     "port": 6379
   },
   "elasticsearch": {
-    "url": "http://localhost:9200",
+    "url": "http://127.0.0.1:9200",
     "noQueryCache": false
   },
   "minio": {
-    "endpoint": "localhost",
-    "port": 9000,
+    "endpoint": "127.0.0.1",
+    "port": 9001,
     "use_ssl": false,
     "access_key": "minio@darkowl.cti",
     "secret_key": "d4rk0wladmin"
@@ -44,6 +44,14 @@
   "providers": {
     "local": {
       "strategy": "LocalStrategy"
+    },
+    "facebook": {
+      "strategy": "FacebookStrategy",
+      "config": {
+        "client_id": "193091148641185",
+        "client_secret": "cc8021eb951e2067c51e577f3fc7b185",
+        "callback_url": "https://darkcti.com/auth/facebook/callback"
+      }
     }
   }
 }

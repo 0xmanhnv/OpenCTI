@@ -5,11 +5,11 @@ export default {
     text: { secondary: 'rgba(255, 255, 255, 0.5)' },
     primary: { main: '#00bcd4' },
     secondary: { main: '#ff3d00' },
-    header: { background: '#000000', text: '#ffffff' },
+    header: { background: '#24797d', text: '#ffffff' },
     navAlt: { background: '#14262c', backgroundHeader: '#2d4b5b' },
     navBottom: { background: '#0f181f' },
     background: {
-      paper: '#303a3d',
+      paper: '#3a4b50',
       paperLight: '#265058',
       nav: '#1a1a1a',
       navLight: '#14262c',

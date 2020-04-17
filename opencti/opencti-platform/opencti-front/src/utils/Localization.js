@@ -1,3 +1,5 @@
+import vi from "../lang/vi.js";
+
 const i18n = {
   messages: {
     fr: {
@@ -991,6 +993,7 @@ const i18n = {
       INTERNAL_EXPORT_FILE: 'Files export',
       INTERNAL_ENRICHMENT: 'Enrichment',
     },
+    vi: vi,
   },
 };
 
