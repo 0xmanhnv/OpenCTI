@@ -25,7 +25,7 @@ import YAxis from 'recharts/lib/cartesian/YAxis';
 import CartesianGrid from 'recharts/lib/cartesian/CartesianGrid';
 import Tooltip from 'recharts/lib/component/Tooltip';
 import { QueryRenderer } from '../../relay/environment';
-import { yearsAgo, monthsAgo, dayAgo, now } from '../../utils/Time';
+import { monthsAgo, dayAgo, now } from '../../utils/Time';
 import Theme from '../../components/Theme';
 import inject18n from '../../components/i18n';
 import ItemNumberDifference from '../../components/ItemNumberDifference';
@@ -201,7 +201,7 @@ class Dashboard extends Component {
       operation: 'count',
       startDate: monthsAgo(1),
       endDate: now(),
-      interval: 'day',
+      interval: 'hour',
     };
     return (
       <div className={classes.root}>
