@@ -201,7 +201,7 @@ class Dashboard extends Component {
       operation: 'count',
       startDate: monthsAgo(1),
       endDate: now(),
-      interval: 'hour',
+      interval: 'day',
     };
     return (
       <div className={classes.root}>
