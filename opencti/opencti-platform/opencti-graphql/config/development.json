@@ -28,7 +28,7 @@
   },
   "minio": {
     "endpoint": "127.0.0.1",
-    "port": 9001,
+    "port": 9000,
     "use_ssl": false,
     "access_key": "minio@darkowl.cti",
     "secret_key": "d4rk0wladmin"
